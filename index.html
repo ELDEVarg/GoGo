@@ -22,9 +22,18 @@
 
 
 
-<body>
-
-  <div class="video">
+<body class="hidden">
+  <div class="loader-centrado" id="onload">
+    <div class="lds-ripple">
+      <div>
+      </div>
+      <div>     
+      </div>
+    </div>
+  </div>
+  
+  <div class="body">
+    <div class="video">
     <video autoplay muted loop>
       <source src="media/fondo.mp4">
     </video>
@@ -58,6 +67,9 @@
    <footer>
      <p>Desarrollado por <strong><a href="">ELDEV</a></strong></p>
    </footer>
-
+  </div>
+  
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="codigo.js"></script>
 
 </body>
