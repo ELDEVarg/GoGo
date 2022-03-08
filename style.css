@@ -227,6 +227,10 @@ padding: 20px;
   padding-right: 180px;
   filter: blur(0.1px);
 }
+.btn:hover{
+  transform: scale(1) translateX(0px);
+}
+
 }
 
 footer{
