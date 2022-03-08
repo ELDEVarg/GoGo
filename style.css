@@ -209,7 +209,7 @@ padding: 20px;
 .btn:hover > .btn-red{
   opacity: 0.9;
    filter: blur(0);
-  padding-right: 150px;
+  padding-right: 180px;
 }
 .btn:hover > .btn-red{
 
@@ -224,7 +224,7 @@ padding: 20px;
   justify-self:center;
   padding-top: 3px;
   opacity: 0.8;
-  padding-right: 150px;
+  padding-right: 180px;
   filter: blur(0.1px);
 }
 }
